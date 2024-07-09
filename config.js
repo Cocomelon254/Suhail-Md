@@ -1,4 +1,4 @@
-const fs = require('fs-extra')
+noconst fs = require('fs-extra')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
@@ -7,7 +7,7 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="jemo7158@gmail.com"
+global.email ="g36840782@gmail.com"
 global.location="Nairobi,Kenya."
 
 
@@ -17,7 +17,7 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Kenya/Nairobi";
-global.github=process.env.GITHUB|| "https://github.com/Sir-JamesMuritu/Suhail-Md";
+global.github=process.env.GITHUB|| "https://github.com/Cocomelon254/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Sir-James",
+  botname : process.env.BOT_NAME  || "COCOMELON-TECH",
+  ownername:process.env.OWNER_NAME|| "Cocomelon-Tech",
 
 
   errorChat : process.env.ERROR_CHAT || "",
